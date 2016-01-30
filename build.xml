@@ -5,7 +5,7 @@
         </target>
 
         <target name="show_version" depends="test">
-                <echo>(ant.version)</echo>
+                <echo>${ant.version}</echo>
         </target>
  
         <target name="test">
